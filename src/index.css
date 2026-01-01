@@ -25,7 +25,7 @@
     --secondary-foreground: 220 25% 15%;
 
     --muted: 40 15% 90%;
-    --muted-foreground: 220 15% 45%;
+    --muted-foreground: 220 20% 35%;
 
     /* Muted Gold Accent */
     --accent: 43 35% 55%;
@@ -86,7 +86,7 @@
     --secondary-foreground: 40 20% 95%;
 
     --muted: 220 20% 18%;
-    --muted-foreground: 40 15% 65%;
+    --muted-foreground: 40 15% 75%;
 
     --accent: 43 35% 55%;
     --accent-foreground: 220 30% 8%;
