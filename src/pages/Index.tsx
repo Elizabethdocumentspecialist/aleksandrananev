@@ -111,12 +111,9 @@ const Index = () => {
                   Contact
                 </Link>
                 <a
-                  href="#"
+                  href="/ALEKSANDR_ANANEV_CV.pdf"
+                  download
                   className="btn-gold inline-flex items-center gap-2"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    alert("CV download would be available here");
-                  }}
                 >
                   <Download size={16} />
                   Download CV
