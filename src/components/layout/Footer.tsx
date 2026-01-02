@@ -15,7 +15,7 @@ const Footer = () => {
               <img 
                 src={aaLogo} 
                 alt="Aleksandr Ananev" 
-                className="h-12 w-auto invert hue-rotate-180 brightness-200" 
+                className="h-16 w-auto invert" 
               />
             </Link>
             <p className="text-primary-foreground/70 text-sm leading-relaxed">
