@@ -12,7 +12,11 @@ const Footer = () => {
           {/* Brand Column */}
           <div className="space-y-6">
             <Link to="/" className="inline-block">
-              <img src={aaLogo} alt="Aleksandr Ananev" className="h-12 w-auto brightness-0 invert" />
+              <img 
+                src={aaLogo} 
+                alt="Aleksandr Ananev" 
+                className="h-12 w-auto invert hue-rotate-180 brightness-200" 
+              />
             </Link>
             <p className="text-primary-foreground/70 text-sm leading-relaxed">
               Junior Legal Professional specializing in Corporate & Investment Funds Law, based in Luxembourg.
