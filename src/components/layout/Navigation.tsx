@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import aaLogo from "@/assets/aa-logo.png";
 
 const navLinks = [
   { path: "/", label: "Home" },
@@ -45,10 +46,7 @@ const Navigation = () => {
           to="/"
           className="relative group"
         >
-          <span className="font-serif text-2xl font-semibold text-primary tracking-tight">
-            AA
-          </span>
-          <span className="absolute -bottom-1 left-0 w-0 h-px bg-accent transition-all duration-300 group-hover:w-full" />
+          <img src={aaLogo} alt="Aleksandr Ananev" className="h-10 w-auto" />
         </Link>
 
         {/* Desktop Navigation */}

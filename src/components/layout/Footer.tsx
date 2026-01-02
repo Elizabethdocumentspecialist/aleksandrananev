@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Linkedin, Mail, Phone, MapPin } from "lucide-react";
+import aaLogo from "@/assets/aa-logo.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -11,9 +12,7 @@ const Footer = () => {
           {/* Brand Column */}
           <div className="space-y-6">
             <Link to="/" className="inline-block">
-              <span className="font-serif text-3xl font-semibold tracking-tight">
-                AA
-              </span>
+              <img src={aaLogo} alt="Aleksandr Ananev" className="h-12 w-auto brightness-0 invert" />
             </Link>
             <p className="text-primary-foreground/70 text-sm leading-relaxed">
               Junior Legal Professional specializing in Corporate & Investment Funds Law, based in Luxembourg.
